@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch 1: An Invisible World | MicroBio Study</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<nav class="top-nav">
+  <button class="hamburger" id="hamburger">☰</button>
+  <a class="logo" href="../index.html">🦠 <span>Micro</span>Bio Study</a>
+  <div class="top-search"><input type="text" id="global-search" placeholder="Search glossary..."></div>
+</nav>
+<div class="site-wrapper">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-section"><div class="sidebar-section-title">Main</div>
+    <a href="../index.html"><span class="icon">🏠</span> Home</a></div>
+  <div class="sidebar-section"><div class="sidebar-section-title">This Chapter</div>
+    <a href="#overview">Overview</a>
+    <a href="#history">History</a>
+    <a href="#scope">Scope of Microbiology</a>
+    <a href="#microbes-us">Microbes &amp; Us</a>
+    <a href="#exam-traps">Exam Traps</a>
+    <a href="#practice">Practice</a>
+  </div>
+  <div class="sidebar-section"><div class="sidebar-section-title">Chapters</div>
+    <a href="ch01.html" class="active"><span class="icon">1</span> Ch 1: Intro</a>
+    <a href="ch02.html"><span class="icon">2</span> Ch 2: Chemistry</a>
+    <a href="ch03.html"><span class="icon">3</span> Ch 3: Cell Structure</a>
+    <a href="ch04.html"><span class="icon">4</span> Ch 4: Prokaryotic Diversity</a>
+  </div>
+  <div class="sidebar-section"><div class="sidebar-section-title">Study Tools</div>
+    <a href="glossary.html">📚 Glossary</a>
+    <a href="practice.html">✏️ Practice</a>
+    <a href="exam-mode.html">🎯 Exam Mode</a>
+  </div>
+</aside>
+<main class="main-content">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">›</span>Ch 1</div>
+  <h1 id="overview">🔬 Chapter 1: An Invisible World</h1>
+  <div class="chapter-progress"><div class="chapter-progress-fill" style="width:0%"></div></div>
+
+  <div class="callout tip"><div class="callout-title">🎯 Lesson Overview</div>
+  Microbiology is the study of organisms too small to see with the naked eye. This chapter introduces what microorganisms are, their incredible diversity, and why they matter for medicine, industry, and life on Earth. Understanding this big picture makes every other chapter make sense.
+  </div>
+
+  <h2 id="history">📖 History of Microbiology</h2>
+  <p>For most of human history, nobody knew microorganisms existed. Ancient diseases were blamed on bad air (<em>miasma</em>) or supernatural causes. That changed in the 1600s when <strong>Antonie van Leeuwenhoek</strong> ground glass lenses powerful enough to see bacteria for the first time, calling them <em>animalcules</em> (“little animals”).</p>
+
+  <div class="callout definition"><div class="callout-title">📘 Key Definition</div>
+  <strong>Microbiology</strong>: The scientific study of microorganisms, including bacteria, archaea, fungi, protozoa, algae, and viruses.
+  </div>
+
+  <h3>The Germ Theory of Disease</h3>
+  <p><strong>Louis Pasteur</strong> (1850s–80s) demolished the theory of spontaneous generation with his famous swan-neck flask experiments. He proved that microbes come from pre-existing microbes, not thin air. He also developed pasteurization and early vaccines.</p>
+  <p><strong>Robert Koch</strong> developed <em>Koch’s Postulates</em> (1876–84), the gold standard for proving a specific microbe causes a specific disease.</p>
+
+  <div class="callout definition"><div class="callout-title">📘 Koch’s Postulates</div>
+  <ol>
+    <li>The microbe must be found in all diseased organisms, but not in healthy ones.</li>
+    <li>The microbe must be isolated from the diseased organism and grown in pure culture.</li>
+    <li>The cultured microbe must cause disease when introduced to a healthy host.</li>
+    <li>The microbe must be re-isolated from the newly diseased host and match the original.</li>
+  </ol>
+  </div>
+
+  <button class="expand-btn" data-target="germ-deeper">Deeper Dive: Limitations of Koch’s Postulates</button>
+  <div class="expandable" id="germ-deeper">
+    <p>Koch’s Postulates don’t work for every pathogen. For example, <em>Vibrio cholerae</em> can colonize healthy people without causing disease (asymptomatic carriers). HIV and some other viruses can’t be grown in standard culture. Modern <strong>Molecular Koch’s Postulates</strong> (proposed by Falkow) address these issues using gene sequences and virulence factors instead of whole organisms.</p>
+  </div>
+
+  <h3>Timeline of Key Discoveries</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Year</th><th>Scientist</th><th>Discovery</th></tr></thead>
+    <tbody>
+      <tr><td>1676</td><td>Leeuwenhoek</td><td>First observed bacteria (animalcules)</td></tr>
+      <tr><td>1796</td><td>Jenner</td><td>Smallpox vaccination (cowpox)</td></tr>
+      <tr><td>1857</td><td>Pasteur</td><td>Fermentation caused by microbes</td></tr>
+      <tr><td>1861</td><td>Pasteur</td><td>Disproved spontaneous generation</td></tr>
+      <tr><td>1867</td><td>Lister</td><td>Antiseptic surgical technique</td></tr>
+      <tr><td>1876</td><td>Koch</td><td>Identified <em>B. anthracis</em> as anthrax cause</td></tr>
+      <tr><td>1884</td><td>Koch</td><td>Published Koch’s Postulates</td></tr>
+      <tr><td>1892</td><td>Ivanowski</td><td>First virus discovery (tobacco mosaic)</td></tr>
+      <tr><td>1928</td><td>Fleming</td><td>Discovered penicillin</td></tr>
+      <tr><td>1953</td><td>Watson &amp; Crick</td><td>DNA double helix structure</td></tr>
+      <tr><td>1980s</td><td>Many</td><td>HIV/AIDS identified and studied</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2 id="scope">🌐 Scope of Microbiology</h2>
+  <p>Microbiology isn’t just about disease. Microbes are involved in nearly every process on Earth:</p>
+  <ul>
+    <li><strong>Environmental microbiology</strong>: Microbes cycle nitrogen, carbon, and sulfur — essential for all life.</li>
+    <li><strong>Industrial microbiology</strong>: Fermentation for beer, cheese, yogurt; biofuels; bioplastics.</li>
+    <li><strong>Medical microbiology</strong>: Infectious diseases, vaccines, antibiotics, diagnostics.</li>
+    <li><strong>Agricultural microbiology</strong>: Nitrogen-fixing bacteria in soil feed plants without fertilizer.</li>
+    <li><strong>Food microbiology</strong>: Preservation, fermentation, food safety.</li>
+    <li><strong>Research tool</strong>: <em>E. coli</em> is used in nearly every molecular biology experiment.</li>
+  </ul>
+
+  <h2 id="microbes-us">🦠 Microbes &amp; Us</h2>
+  <p>Your body contains roughly <strong>37 trillion human cells</strong> and about the same number of microbial cells (mostly bacteria). This microbial community is called the <strong>microbiome</strong> or <strong>normal flora/microbiota</strong>.</p>
+
+  <div class="callout definition"><div class="callout-title">📘 Key Definitions</div>
+  <strong>Microbiome</strong>: All the microorganisms and their genetic material living in/on a host.<br>
+  <strong>Normal microbiota</strong>: Microorganisms that normally live on/in the body without causing disease.<br>
+  <strong>Opportunistic pathogen</strong>: A microbe that is normally harmless but can cause disease if the immune system is weakened.
+  </div>
+
+  <div class="callout realworld"><div class="callout-title">🌎 Real World: Why This Matters in Nursing</div>
+  When patients receive broad-spectrum antibiotics, they kill off normal microbiota, allowing opportunistic pathogens like <em>Clostridioides difficile</em> (C. diff) to overgrow and cause severe diarrhea. This is why nurses monitor patients on antibiotics for GI changes.
+  </div>
+
+  <h2 id="exam-traps">❌ Common Exam Traps</h2>
+  <div class="callout warning"><div class="callout-title">⚠️ Trap 1: Pasteur vs. Koch</div>
+  Students mix these up. <strong>Pasteur</strong> disproved spontaneous generation. <strong>Koch</strong> proved specific microbes cause specific diseases. Remember: P for Pasteur = Proved microbes reproduce; K for Koch = Killers identified.
+  </div>
+  <div class="callout warning"><div class="callout-title">⚠️ Trap 2: Microbiome vs. Pathogen</div>
+  Normal microbiota are NOT pathogens by default. They become a problem only in the wrong place (e.g., <em>E. coli</em> in the gut = fine; <em>E. coli</em> in the bladder = UTI).
+  </div>
+
+  <div class="callout mnemonic"><div class="callout-title">🧠 Mnemonic: Koch’s Postulates</div>
+  <strong>"Please Isolate Cause, Re-isolate"</strong>: <strong>P</strong>resent in diseased, <strong>I</strong>solate and culture, <strong>C</strong>ause disease in healthy host, <strong>R</strong>e-isolate and match.
+  </div>
+
+  <div class="tldr-box">
+    <h4>⚡ TL;DR &mdash; Chapter 1 Key Takeaways</h4>
+    <ul>
+      <li>Microbiology = study of organisms too small to see naked-eye (bacteria, viruses, fungi, protozoa, algae, archaea)</li>
+      <li>Leeuwenhoek first saw microbes (1676); Pasteur disproved spontaneous generation; Koch proved germ theory</li>
+      <li>Koch’s 4 Postulates are the standard for proving a microbe causes disease</li>
+      <li>Microbes live everywhere, including in/on you (microbiome) — mostly beneficial or neutral</li>
+      <li>Microbiology matters for medicine, agriculture, industry, and ecology</li>
+    </ul>
+  </div>
+
+  <h2 id="practice">✏️ Practice Questions</h2>
+  <div class="quiz-container" id="quiz-ch01">
+    <div class="quiz-q" data-correct="B" data-explanation="Pasteur’s swan-neck flask experiment showed that microbes come from the air, not from spontaneous generation. This disproved spontaneous generation.">
+      <div class="q-text">1. Which experiment disproved spontaneous generation?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q1" value="A"> A. Koch’s anthrax experiment</label>
+        <label><input type="radio" name="q1" value="B"> B. Pasteur’s swan-neck flask experiment</label>
+        <label><input type="radio" name="q1" value="C"> C. Leeuwenhoek’s microscopy</label>
+        <label><input type="radio" name="q1" value="D"> D. Lister’s antiseptic surgery</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="C" data-explanation="Koch’s Postulate 3 requires that the cultured microbe, when introduced to a healthy host, must reproduce the disease.">
+      <div class="q-text">2. Which step of Koch’s Postulates requires introducing the cultured microbe to a healthy host?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q2" value="A"> A. Postulate 1</label>
+        <label><input type="radio" name="q2" value="B"> B. Postulate 2</label>
+        <label><input type="radio" name="q2" value="C"> C. Postulate 3</label>
+        <label><input type="radio" name="q2" value="D"> D. Postulate 4</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="D" data-explanation="Normal microbiota refers to microorganisms that normally live in/on the body without causing disease in a healthy host.">
+      <div class="q-text">3. What is the term for microorganisms that normally live on/in the body without causing disease?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q3" value="A"> A. Pathogens</label>
+        <label><input type="radio" name="q3" value="B"> B. Opportunistic pathogens</label>
+        <label><input type="radio" name="q3" value="C"> C. Virulence factors</label>
+        <label><input type="radio" name="q3" value="D"> D. Normal microbiota</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="A" data-explanation="Antonie van Leeuwenhoek was the first to observe microorganisms using his hand-crafted microscopes in 1676.">
+      <div class="q-text">4. Who was the first scientist to directly observe microorganisms?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q4" value="A"> A. Antonie van Leeuwenhoek</label>
+        <label><input type="radio" name="q4" value="B"> B. Louis Pasteur</label>
+        <label><input type="radio" name="q4" value="C"> C. Robert Koch</label>
+        <label><input type="radio" name="q4" value="D"> D. Joseph Lister</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="B" data-explanation="An opportunistic pathogen normally causes no harm but can cause disease when the host’s immune defenses are compromised.">
+      <div class="q-text">5. An opportunistic pathogen is best defined as:</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q5" value="A"> A. Always causes disease regardless of host status</label>
+        <label><input type="radio" name="q5" value="B"> B. Harmless normally, but causes disease in an immunocompromised host</label>
+        <label><input type="radio" name="q5" value="C"> C. Can only infect non-human hosts</label>
+        <label><input type="radio" name="q5" value="D"> D. A pathogen transmitted by insects</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <button class="quiz-submit">Check Answers</button>
+    <div class="quiz-score"></div>
+  </div>
+
+  <h3>🆎 Flashcards</h3>
+  <div class="flashcard-grid">
+    <div class="flashcard"><div class="flashcard-inner"><div class="flashcard-front">What did Pasteur prove with swan-neck flasks?</div><div class="flashcard-back">Microbes come from pre-existing microbes — spontaneous generation is false.</div></div></div>
+    <div class="flashcard"><div class="flashcard-inner"><div class="flashcard-front">Name the 4 Koch’s Postulates in order</div><div class="flashcard-back">1. Present in diseased 2. Isolate &amp; culture 3. Cause disease in healthy host 4. Re-isolate &amp; match</div></div></div>
+    <div class="flashcard"><div class="flashcard-inner"><div class="flashcard-front">What is the microbiome?</div><div class="flashcard-back">All microorganisms and their genetic material living in/on a host organism.</div></div></div>
+    <div class="flashcard"><div class="flashcard-inner"><div class="flashcard-front">What year did Leeuwenhoek first see bacteria?</div><div class="flashcard-back">1676 — he called them &quot;animalcules&quot;</div></div></div>
+  </div>
+
+  <div style="display:flex;gap:1rem;margin-top:2rem;">
+    <a href="../index.html" style="color:var(--text-muted);">← Home</a>
+    <a href="ch02.html" style="margin-left:auto;font-weight:700;">Ch 2: Chemistry →</a>
+  </div>
+</main>
+</div>
+<footer>&copy; 2026 MicroBio Study — OpenStax Microbiology (CC BY 4.0)</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>

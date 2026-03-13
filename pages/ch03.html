@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ch 3: The Cell | MicroBio Study</title>
+<link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body>
+<nav class="top-nav">
+  <button class="hamburger" id="hamburger">☰</button>
+  <a class="logo" href="../index.html">🦠 <span>Micro</span>Bio Study</a>
+  <div class="top-search"><input type="text" id="global-search" placeholder="Search glossary..."></div>
+</nav>
+<div class="site-wrapper">
+<aside class="sidebar" id="sidebar">
+  <div class="sidebar-section"><div class="sidebar-section-title">Main</div>
+    <a href="../index.html"><span class="icon">🏠</span> Home</a></div>
+  <div class="sidebar-section"><div class="sidebar-section-title">This Chapter</div>
+    <a href="#overview">Overview</a>
+    <a href="#prokaryote">Prokaryotic Structure</a>
+    <a href="#eukaryote">Eukaryotic Structure</a>
+    <a href="#comparison">Pro vs. Euk</a>
+    <a href="#practice">Practice</a>
+  </div>
+  <div class="sidebar-section"><div class="sidebar-section-title">Chapters</div>
+    <a href="ch02.html"><span class="icon">2</span> Ch 2: Microscopy</a>
+    <a href="ch03.html" class="active"><span class="icon">3</span> Ch 3: The Cell</a>
+    <a href="ch04.html"><span class="icon">4</span> Ch 4: Prokaryotic Diversity</a>
+  </div>
+  <div class="sidebar-section"><div class="sidebar-section-title">Study Tools</div>
+    <a href="glossary.html">📚 Glossary</a>
+    <a href="practice.html">✏️ Practice</a>
+  </div>
+</aside>
+<main class="main-content">
+  <div class="breadcrumb"><a href="../index.html">Home</a><span class="sep">›</span>Ch 3</div>
+  <h1 id="overview">🧫 Chapter 3: The Cell</h1>
+
+  <div class="callout tip"><div class="callout-title">🎯 Lesson Overview</div>
+  All living things are made of cells. In microbiology, we focus on two types: <strong>prokaryotes</strong> (bacteria and archaea — no nucleus) and <strong>eukaryotes</strong> (fungi, protozoa, algae — have a nucleus). Understanding their structural differences explains antibiotic targets and why drugs can kill bacteria without harming human cells.
+  </div>
+
+  <h2 id="prokaryote">🦠 Prokaryotic Cell Structure</h2>
+  <p>Prokaryotes are the simplest cells — no membrane-bound organelles, no true nucleus. Their DNA floats in a region called the <strong>nucleoid</strong>.</p>
+
+  <h3>Key Prokaryotic Structures</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Structure</th><th>Function</th><th>Present in</th></tr></thead>
+    <tbody>
+      <tr><td>Cell membrane</td><td>Selective barrier; site of respiration in prokaryotes</td><td>All prokaryotes</td></tr>
+      <tr><td>Cell wall (peptidoglycan)</td><td>Structural support; prevents osmotic lysis</td><td>Most bacteria (not mycoplasma)</td></tr>
+      <tr><td>Nucleoid</td><td>Region containing chromosomal DNA (not membrane-bound)</td><td>All prokaryotes</td></tr>
+      <tr><td>Ribosome (70S)</td><td>Protein synthesis (made of 30S + 50S subunits)</td><td>All prokaryotes</td></tr>
+      <tr><td>Plasmid</td><td>Extra circular DNA; often carries antibiotic resistance genes</td><td>Many bacteria</td></tr>
+      <tr><td>Flagella</td><td>Motility; different arrangements (monotrichous, lophotrichous, amphitrichous, peritrichous)</td><td>Many bacteria</td></tr>
+      <tr><td>Pili / Fimbriae</td><td>Attachment to host cells; sex pilus for conjugation (gene transfer)</td><td>Many Gram− bacteria</td></tr>
+      <tr><td>Capsule</td><td>Virulence factor; protects from phagocytosis; allows biofilm formation</td><td>Many pathogens</td></tr>
+      <tr><td>Endospore</td><td>Dormant, heat/chemical-resistant survival structure</td><td><em>Bacillus</em>, <em>Clostridium</em></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="callout realworld"><div class="callout-title">🌎 Why Prokaryotic Ribosomes Matter</div>
+  Prokaryotic ribosomes are <strong>70S</strong> (30S + 50S subunits). Human ribosomes are <strong>80S</strong> (40S + 60S). Many antibiotics (<em>tetracyclines, aminoglycosides, erythromycin</em>) target the 70S ribosome specifically, killing bacteria without harming human cells. This is called <strong>selective toxicity</strong>.
+  </div>
+
+  <h3>Bacterial Cell Shapes &amp; Arrangements</h3>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Shape</th><th>Name</th><th>Example</th></tr></thead>
+    <tbody>
+      <tr><td>Sphere</td><td>Coccus (pl. cocci)</td><td><em>Staphylococcus</em></td></tr>
+      <tr><td>Rod</td><td>Bacillus (pl. bacilli)</td><td><em>E. coli</em></td></tr>
+      <tr><td>Spiral</td><td>Spirillum / Spirochete</td><td><em>Treponema pallidum</em></td></tr>
+      <tr><td>Comma</td><td>Vibrio</td><td><em>Vibrio cholerae</em></td></tr>
+      <tr><td>Pairs</td><td>Diplo-</td><td>Diplococcus, Diplobacillus</td></tr>
+      <tr><td>Chains</td><td>Strepto-</td><td><em>Streptococcus</em></td></tr>
+      <tr><td>Clusters</td><td>Staphylo-</td><td><em>Staphylococcus aureus</em></td></tr>
+      <tr><td>Cubes of 8</td><td>Sarcina</td><td><em>Sarcina ventriculi</em></td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <h2 id="eukaryote">🧬 Eukaryotic Cell Structure</h2>
+  <p>Eukaryotic cells are larger and more complex. They contain membrane-bound organelles, a true nucleus, and their ribosomes are 80S.</p>
+
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Organelle</th><th>Function</th></tr></thead>
+    <tbody>
+      <tr><td>Nucleus</td><td>Houses linear chromosomes; site of transcription</td></tr>
+      <tr><td>Mitochondria</td><td>ATP production via cellular respiration; has own 70S ribosomes (endosymbiosis!)</td></tr>
+      <tr><td>Endoplasmic reticulum (rough/smooth)</td><td>Rough ER: protein synthesis/processing; Smooth ER: lipid synthesis, detox</td></tr>
+      <tr><td>Golgi apparatus</td><td>Modifies, packages, and ships proteins</td></tr>
+      <tr><td>Lysosome</td><td>Digestion of waste/pathogens (animal cells)</td></tr>
+      <tr><td>Ribosome (80S)</td><td>Protein synthesis (40S + 60S)</td></tr>
+      <tr><td>Cytoskeleton</td><td>Structure and movement (actin, tubulin)</td></tr>
+      <tr><td>Cell wall</td><td>Present in fungi (chitin), algae, plants (cellulose) — NOT in animal cells</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="callout mnemonic"><div class="callout-title">🧠 Mnemonic: 70S vs 80S</div>
+  <strong>"70 Pro, 80 Eu"</strong>: PROkaryotes have 70S ribosomes; EUkaryotes have 80S. 70 comes before 80 just like Pro comes before Eu in evolution.
+  </div>
+
+  <h2 id="comparison">🔍 Prokaryote vs. Eukaryote</h2>
+  <div class="table-wrap">
+  <table>
+    <thead><tr><th>Feature</th><th>Prokaryote</th><th>Eukaryote</th></tr></thead>
+    <tbody>
+      <tr><td>True nucleus</td><td>No (nucleoid)</td><td>Yes</td></tr>
+      <tr><td>Membrane-bound organelles</td><td>No</td><td>Yes</td></tr>
+      <tr><td>Ribosome size</td><td>70S</td><td>80S (70S in mitochondria/chloroplasts)</td></tr>
+      <tr><td>DNA</td><td>Circular, in cytoplasm</td><td>Linear, in nucleus</td></tr>
+      <tr><td>Cell wall</td><td>Usually (peptidoglycan in bacteria)</td><td>Sometimes (chitin in fungi, cellulose in plants)</td></tr>
+      <tr><td>Size</td><td>1–10 μm</td><td>10–100 μm</td></tr>
+      <tr><td>Examples</td><td>Bacteria, Archaea</td><td>Fungi, Protozoa, Algae, Plants, Animals</td></tr>
+    </tbody>
+  </table>
+  </div>
+
+  <div class="tldr-box">
+    <h4>⚡ TL;DR &mdash; Chapter 3 Key Takeaways</h4>
+    <ul>
+      <li>Prokaryotes: no nucleus, no organelles, 70S ribosomes, circular DNA, peptidoglycan cell wall</li>
+      <li>Eukaryotes: true nucleus, organelles, 80S ribosomes (except mitochondria), linear DNA</li>
+      <li>Antibiotic selectivity exploits differences (e.g., 70S ribosomes, peptidoglycan)</li>
+      <li>Capsule = major virulence factor (protects bacteria from phagocytosis)</li>
+      <li>Endospores: extreme survival structures made by <em>Bacillus</em> &amp; <em>Clostridium</em> (resistant to heat, disinfectants)</li>
+    </ul>
+  </div>
+
+  <h2 id="practice">✏️ Practice Questions</h2>
+  <div class="quiz-container" id="quiz-ch03">
+    <div class="quiz-q" data-correct="B" data-explanation="Prokaryotes have 70S ribosomes (30S + 50S subunits). Eukaryotes have 80S ribosomes. This difference is exploited by many antibiotics.">
+      <div class="q-text">1. What is the ribosome size in prokaryotes?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q3_1" value="A"> A. 80S</label>
+        <label><input type="radio" name="q3_1" value="B"> B. 70S</label>
+        <label><input type="radio" name="q3_1" value="C"> C. 40S</label>
+        <label><input type="radio" name="q3_1" value="D"> D. 60S</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="C" data-explanation="The capsule protects bacteria from phagocytosis by macrophages and neutrophils, making it an important virulence factor. It also helps bacteria adhere and form biofilms.">
+      <div class="q-text">2. What is the primary function of the bacterial capsule as a virulence factor?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q3_2" value="A"> A. Protein synthesis</label>
+        <label><input type="radio" name="q3_2" value="B"> B. ATP production</label>
+        <label><input type="radio" name="q3_2" value="C"> C. Protection from phagocytosis</label>
+        <label><input type="radio" name="q3_2" value="D"> D. Antibiotic resistance</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <div class="quiz-q" data-correct="D" data-explanation="Endospores are formed by Bacillus and Clostridium species. They are extremely resistant to heat, chemicals, desiccation, and UV radiation.">
+      <div class="q-text">3. Which bacteria produce endospores?</div>
+      <div class="quiz-options">
+        <label><input type="radio" name="q3_3" value="A"> A. Staphylococcus and Streptococcus</label>
+        <label><input type="radio" name="q3_3" value="B"> B. E. coli and Salmonella</label>
+        <label><input type="radio" name="q3_3" value="C"> C. Mycobacterium and Treponema</label>
+        <label><input type="radio" name="q3_3" value="D"> D. Bacillus and Clostridium</label>
+      </div>
+      <div class="q-feedback"></div>
+    </div>
+    <button class="quiz-submit">Check Answers</button>
+    <div class="quiz-score"></div>
+  </div>
+
+  <div style="display:flex;gap:1rem;margin-top:2rem;">
+    <a href="ch02.html">← Ch 2</a>
+    <a href="ch04.html" style="margin-left:auto;font-weight:700;">Ch 4: Prokaryotic Diversity →</a>
+  </div>
+</main>
+</div>
+<footer>&copy; 2026 MicroBio Study — OpenStax Microbiology (CC BY 4.0)</footer>
+<script src="../assets/js/main.js"></script>
+</body>
+</html>
