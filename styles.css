@@ -1,0 +1,23 @@
+.styles {
+  background-color: #f0f4f8; /* soft gray */
+  color: #2c3e50; /* dark blue-gray */
+  font-family: 'Arial', sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2, h3 {
+  color: #1d3557; /* calm blue */
+}
+
+p {
+  font-size: 1.1em;
+}
+
+a {
+  color: #457b9d; /* softer blue for links */
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
